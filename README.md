@@ -1,24 +1,18 @@
 # Habitat Natural
 
-**CRM, reservas e financeiro para viagens e expedições.**
+Uma plataforma para acompanhar a viagem inteira, do primeiro contato ao pagamento. Desenvolvi o sistema do zero para a operação da Habitat Natural.
 
-A operação de uma expedição passa pelo primeiro contato, escolha da viagem, reserva, contrato e pagamento. Construí do zero uma plataforma para acompanhar essa jornada em um só lugar.
+O produto reúne CRM, expedições, vagas, reservas, lista de espera, contratos e financeiro. Também implementei rotinas em segundo plano para notificações e tarefas da operação.
 
-## O que construí
+### Integrações
 
-- CRM para organizar leads, clientes e o andamento de cada atendimento.
-- Gestão de expedições, vagas, reservas e lista de espera.
-- Fluxos de contratos, assinaturas e acompanhamento financeiro.
-- Processamento em segundo plano para notificações e rotinas da operação.
+- **Bradesco Pix e Sicredi:** fluxos bancários.
+- **Asaas:** pagamentos.
+- **ZapSign:** assinatura de contratos.
+- **WhatsApp, Evolution API e Resend:** comunicação.
 
-## Integrações
+**Tecnologias:** TypeScript, Next.js, Fastify, PostgreSQL, Supabase, Drizzle, Redis e BullMQ.
 
-**Bradesco Pix e Sicredi** nos fluxos bancários · **Asaas** para pagamentos · **ZapSign** para assinaturas. O sistema também utiliza WhatsApp, Evolution API e Resend na comunicação.
+Este repositório apresenta o projeto. O código e os dados da empresa são privados.
 
-A aplicação foi construída com TypeScript, Next.js, Fastify, PostgreSQL, Supabase, Drizzle, Redis e BullMQ.
-
-## Resultado
-
-CRM, reservas, contratos e financeiro passaram a fazer parte do mesmo produto, com o contexto da viagem e do cliente disponível ao longo do fluxo. Este estudo descreve minha participação e o escopo técnico; o código da empresa e os dados de clientes permanecem privados.
-
-[Conheça a Habitat Natural ↗](https://www.habitatnatural.com.br/) · [Meu perfil no GitHub](https://github.com/enzotmendes) · [Fale comigo no LinkedIn](https://www.linkedin.com/in/enzotortellimendess/)
+[Habitat Natural](https://www.habitatnatural.com.br/) · [Conversar no LinkedIn](https://www.linkedin.com/in/enzotortellimendess/)
